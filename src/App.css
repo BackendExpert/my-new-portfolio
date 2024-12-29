@@ -1,0 +1,14 @@
+:root{
+  --black-bg: #191923;
+  --black-bg-card: #252531;
+  --site-yellow: #ffc107;
+  --site-white: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.site-bg{
+  background-color: var(--black-bg);
+}
