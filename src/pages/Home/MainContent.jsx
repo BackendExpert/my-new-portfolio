@@ -2,6 +2,7 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import Button from '../../components/Button/Button';
 import CardData from './CardData';
+import AboutMe from './AboutMe';
 
 const MainContent = () => {
 
@@ -42,6 +43,9 @@ const MainContent = () => {
         </div>
         <div className="">
             <CardData />
+        </div>
+        <div className="">
+            <AboutMe />
         </div>
     </div>
 

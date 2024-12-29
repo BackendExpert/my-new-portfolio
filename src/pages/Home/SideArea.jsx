@@ -21,7 +21,7 @@ const SideArea = () => {
         <hr className='border border-[#ffc107]'/>
 
         <div className="">
-            <div className="px-4 py-4">
+            <div className="px-10 py-4">
                 <div className="flex justify-between my-4">
                     <p className="">Residence:</p>
                     <p className="text-gray-400">Sri Lanka</p>
@@ -39,7 +39,7 @@ const SideArea = () => {
 
         <hr className='border border-[#ffc107]'/>
 
-        <div className="py-4 px-4">
+        <div className="py-4 px-10">
             <div className="flex my-4">
                 <FaLinkedin className='h-6 w-auto'/>
                 <a href="https://www.linkedin.com/in/jehanweerasuriya/" target='_blank'><h1 className="pl-2 text-gray-400 duration-500 hover:text-[#ffc107]">Jehan Weerasuriya</h1></a>
@@ -68,7 +68,7 @@ const SideArea = () => {
 
         <hr className='border border-[#ffc107]'/>
 
-        <div className="py-4 px-4">
+        <div className="py-4 px-10">
             <div className="flex cursor-pointer">
                 <h1 className="uppercase tracking-widest font-semibold text-gray-400 duration-500 hover:text-white">download cv</h1>
                 <p className="pt-1 pl-2"><FaDownload className='h-4 w-auto fill-gray-400'/></p>
