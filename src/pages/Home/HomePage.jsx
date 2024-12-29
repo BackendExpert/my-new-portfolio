@@ -1,5 +1,6 @@
 import React from 'react'
 import SideArea from './SideArea'
+import MainContent from './MainContent'
 
 const HomePage = () => {
   return (
@@ -9,7 +10,7 @@ const HomePage = () => {
                 <SideArea />
             </div>
             <div className="w-full">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi consequuntur tempora necessitatibus cupiditate maiores magnam error perferendis blanditiis fugiat dignissimos enim, alias, reprehenderit asperiores officiis nam. Sit quos expedita iusto?
+                <MainContent />
             </div>
         </div>
     </div>
