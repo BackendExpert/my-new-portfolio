@@ -34,24 +34,17 @@ const SkillData = () => {
       },
       {
         id: 5,
-        name: 'Electron (Desktop Development)',
-        value: <CountUp end={65} />,
-        valueProgress: 65,
-        desc: 'Experience: Successfully built desktop applications like TestAPIze.'
+        name: 'MySQL',
+        value: <CountUp end={70} />,
+        valueProgress: 70,
+        desc: 'Experience: Basic understanding and integration knowledge.'
       },
       {
         id: 6,
-        name: 'Electron (Desktop Development)',
-        value: <CountUp end={65} />,
-        valueProgress: 65,
-        desc: 'Experience: Successfully built desktop applications like TestAPIze.'
-      },
-      {
-        id: 7,
-        name: 'Spring Boot (Java)',
-        value: <CountUp end={30} />,
-        valueProgress: 30,
-        desc: 'Proficiency Compared to MERN Stack: Significantly lower. \n Experience: 1 month, beginner level. \n Projects: Minimal exposure.' 
+        name: 'NoSQL Databases (MongoDB, CoconetDB)',
+        value: <CountUp end={80} />,
+        valueProgress: 80,
+        desc: 'Experience: High proficiency, including custom NPM packages.'
       },
     ]
   return (
