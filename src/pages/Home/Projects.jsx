@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../components/Button/Button'
 
 const Projects = () => {
     const  project = [
@@ -108,6 +109,15 @@ const Projects = () => {
                     <div className="text-center">
                       <h1 className="font-semibold text-lg">{item.name}</h1>
                       <p className="text-sm text-[#ffc107] mt-4">{item.projectDate}</p>
+
+                      <div className="py-4">
+                          {item.desc}
+                      </div>
+                      <div className="py-4">
+                          <a href={item.linkedProject} target='_blank'>
+                            <Button btnvale={'View More'}/>
+                          </a>
+                      </div>
                     </div>
                   </div>
                 )
