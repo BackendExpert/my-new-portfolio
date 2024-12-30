@@ -97,7 +97,23 @@ const Projects = () => {
     <div className='my-4'>
         <h1 className="text-2xl font-semibold text-[#ffc107]">Notable Projects</h1>
         <div className="">
-
+          <div className="md:grid grid-cols-3 gap-3 my-4">
+            {
+              project.map((item, index) => {
+                return(
+                  <div className="bg-[#252531] py-4 px-6" key={index}>
+                    <center className='py-4'>
+                        <img src={item.image} alt="" className='h-24 w-auto rounded-full'/>
+                    </center>
+                    <div className="text-center">
+                      <h1 className="font-semibold text-lg">{item.name}</h1>
+                      <p className="text-sm text-[#ffc107] mt-4">{item.projectDate}</p>
+                    </div>
+                  </div>
+                )
+              })
+            }
+          </div>
         </div>
     </div>
     
