@@ -7,6 +7,7 @@ import SkillData from './SkillData';
 import Projects from './Projects';
 import Experience from './Experience';
 import Education from './Education';
+import Achievements from './Achievements';
 
 const MainContent = () => {
 
@@ -62,6 +63,9 @@ const MainContent = () => {
         </div>
         <div className="">
             <Projects />
+        </div>
+        <div className="">
+            <Achievements />
         </div>
         
     </div>
