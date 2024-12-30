@@ -24,7 +24,7 @@ const Experience = () => {
         post: 'Owner and CEO',
         name: 'JehanKandy Photography',
         date: 'September 2024 - Present',
-        img: {NoImg},
+        img: '../../assets/ImageNo.png',
         desc: 'Specializing in portrait photography using a Sony A6400.'
       },
       {
@@ -33,14 +33,32 @@ const Experience = () => {
         name: 'National Institute of Fundamental Studies',
         date: 'January 2024 - October 2024',
         img: 'https://media.licdn.com/dms/image/v2/C510BAQErFzbLAk27gg/company-logo_100_100/company-logo_100_100/0/1630595150759/nifslk_logo?e=1743638400&v=beta&t=3Ws_0gWgIel24A2z4dwtV7dWFLlogxC0lT-Dms3jPsg',
-        desc: 'Specializing in portrait photography using a Sony A6400.'
+        desc: 'Assisting in research projects and Developing Systems.'
       }
     ]
   return (
     <div className='my-4'>
         <h1 className="text-2xl font-semibold text-[#ffc107]">Experience</h1>
 
-        <div className=""></div>
+        <div className="">
+            <div className="md:grid grid-cols-3 gap-3 my-4">
+                {
+                    job.map((data, index) => {
+                        return (
+                            <div className="bg-[#252531] py-4 px-6">
+                                <center className='py-4'>
+                                    <img src={data.img} alt="" className='h-24 w-auto rounded-full'/>
+                                </center>
+                                <div className="text-center">
+                                    <h1 className="font-semibold text-lg">{data.name}</h1>
+                                    <p className="text-sm text-[#ffc107]">{data.post}</p>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        </div>
     </div>
   )
 }
