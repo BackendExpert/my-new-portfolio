@@ -5,7 +5,7 @@ const Education = () => {
         {
             id: 1,
             name: `St Sylvester's College`,
-            qulification: 'Rrimary and Secondary Education',
+            qulification: 'Primary and Secondary Education',
             date: '2006 - 2020',
             desc: 'Advanced Level in Technology',
             img: 'https://upload.wikimedia.org/wikipedia/si/thumb/d/dc/St._Sylvester%27s_College.png/120px-St._Sylvester%27s_College.png'
@@ -43,8 +43,21 @@ const Education = () => {
                 {
                     education.map((item, index) => {
                         return (
-                            <div className="" key={index}>
-                                
+                            <div className="bg-[#252531] py-4 px-6">
+                                <center className='py-4'>
+                                    <img src={item.img} alt="" className='h-24 w-auto rounded-full'/>
+                                </center>
+                                <div className="text-center">
+                                    <h1 className="font-semibold text-lg">{item.name}</h1>
+                                    <p className="text-sm text-[#ffc107]">{item.qulification}</p>
+
+                                    <div className="py-4">
+                                        {item.date}
+                                    </div>
+                                    <div className="py-4">
+                                        {item.desc}
+                                    </div>
+                                </div>
                             </div>
                         )
                     })

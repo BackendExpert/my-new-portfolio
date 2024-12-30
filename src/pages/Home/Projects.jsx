@@ -88,10 +88,28 @@ const Projects = () => {
         id: 9,
         name: 'South Asia’s First CSS Framework',
         projectDate: 'May 2023 - Present',
-        image: 'https://avatars.githubusercontent.com/u/167443241?s=200&v=4',
+        image: 'https://avatars.githubusercontent.com/u/139304882?s=200&v=4',
         desc: 'ReactJKCSS is a React.js library that seamlessly integrates with JKCSS, providing developers with pre-built, reusable React components powered by the framework’s modular and lightweight architecture.',
         moreinfo: '',
         linkedProject: 'https://www.linkedin.com/in/jehanweerasuriya/details/projects/'
+      },
+      {
+        id: 10,
+        name: 'My Node Package Managers (NPM Packages)',
+        projectDate: '',
+        image: 'https://img.icons8.com/?size=80&id=1VuwsQVEpfkq&format=png',
+        desc: 'View My all Node Package Managers (NPM Packages)',
+        moreinfo: '',
+        linkedProject: 'https://www.npmjs.com/~jehankandy'
+      },
+      {
+        id: 11,
+        name: 'My Visual Studio Code Extensions',
+        projectDate: '',
+        image: 'https://img.icons8.com/?size=48&id=9OGIyU8hrxW5&format=png',
+        desc: 'View my all Visual Studio Code Extensions',
+        moreinfo: '',
+        linkedProject: 'https://marketplace.visualstudio.com/publishers/JehanKandy'
       },
     ]
   return (
