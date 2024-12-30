@@ -47,6 +47,51 @@ const Projects = () => {
         moreinfo: '',
         linkedProject: 'https://www.linkedin.com/in/jehanweerasuriya/details/projects/'
       },
+      {
+        id: 6,
+        name: 'Login SignUp React – Streamlined Authentication for Developers',
+        projectDate: 'May 2024 - Present',
+        image: 'https://img.icons8.com/?size=80&id=1VuwsQVEpfkq&format=png',
+        desc: 'Login SignUp React is a powerful NPM package designed to help full-stack developers quickly implement login and registration functionalities in their applications.',
+        moreinfo: '',
+        linkedProject: 'https://www.linkedin.com/in/jehanweerasuriya/details/projects/'
+      },
+      {
+        id: 7,
+        name: 'JKCSS NPM Package',
+        projectDate: 'April 2024 - Present',
+        image: 'https://avatars.githubusercontent.com/u/139304882?s=200&v=4',
+        desc: 'The JKCSS NPM package provides seamless integration of JKCSS into modern web development workflows.',
+        moreinfo: '',
+        linkedProject: 'https://www.linkedin.com/in/jehanweerasuriya/details/projects/'
+      },
+      {
+        id: 8,
+        name: 'JKReact ICONS – React Icon Framework',
+        projectDate: 'April 2024 - Present',
+        image: 'https://avatars.githubusercontent.com/u/139304882?s=200&v=4',
+        desc: 'JKReact ICONS is a lightweight and versatile icon framework designed for React.js applications.',
+        moreinfo: '',
+        linkedProject: 'https://www.linkedin.com/in/jehanweerasuriya/details/projects/'
+      },
+      {
+        id: 8,
+        name: 'ReactJKCSS – React Integration for South Asia’s First CSS Framework',
+        projectDate: 'April 2024 - Present',
+        image: 'https://avatars.githubusercontent.com/u/167443241?s=200&v=4',
+        desc: 'ReactJKCSS is a React.js library that seamlessly integrates with JKCSS, providing developers with pre-built, reusable React components powered by the framework’s modular and lightweight architecture.',
+        moreinfo: '',
+        linkedProject: 'https://www.linkedin.com/in/jehanweerasuriya/details/projects/'
+      },
+      {
+        id: 9,
+        name: 'South Asia’s First CSS Framework',
+        projectDate: 'May 2023 - Present',
+        image: 'https://avatars.githubusercontent.com/u/167443241?s=200&v=4',
+        desc: 'ReactJKCSS is a React.js library that seamlessly integrates with JKCSS, providing developers with pre-built, reusable React components powered by the framework’s modular and lightweight architecture.',
+        moreinfo: '',
+        linkedProject: 'https://www.linkedin.com/in/jehanweerasuriya/details/projects/'
+      },
     ]
   return (
     <div className='my-4'>
