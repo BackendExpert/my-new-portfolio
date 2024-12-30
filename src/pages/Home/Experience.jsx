@@ -52,7 +52,15 @@ const Experience = () => {
                                 <div className="text-center">
                                     <h1 className="font-semibold text-lg">{data.name}</h1>
                                     <p className="text-sm text-[#ffc107]">{data.post}</p>
+
+                                    <div className="py-4">
+                                        {data.date}
+                                    </div>
+                                    <div className="py-4">
+                                        {data.desc}
+                                    </div>
                                 </div>
+                                
                             </div>
                         )
                     })
