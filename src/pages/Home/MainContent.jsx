@@ -4,6 +4,8 @@ import Button from '../../components/Button/Button';
 import CardData from './CardData';
 import AboutMe from './AboutMe';
 import SkillData from './SkillData';
+import Projects from './Projects';
+import Experience from './Experience';
 
 const MainContent = () => {
 
@@ -50,6 +52,12 @@ const MainContent = () => {
         </div>
         <div className="">
             <SkillData />
+        </div>
+        <div className="">
+            <Experience />
+        </div>
+        <div className="">
+            <Projects />
         </div>
     </div>
 
