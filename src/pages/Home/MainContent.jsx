@@ -67,7 +67,10 @@ const MainContent = () => {
         <div className="">
             <Achievements />
         </div>
-        
+
+        <div className="p-4 mt-8 bg-[#252531] text-center mb-16">
+            &copy; All Rights Reserved | 2025 | Developed by <a className='text-[#ffc107]' href="https://www.linkedin.com/in/jehanweerasuriya/" target='_blank'>Jehan Weerasuriya</a> 
+        </div>        
     </div>
 
 
