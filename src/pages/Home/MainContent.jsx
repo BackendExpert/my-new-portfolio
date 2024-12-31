@@ -11,7 +11,7 @@ import Achievements from './Achievements';
 
 const MainContent = () => {
 
-
+    const currentYear = new Date().getFullYear();
   return (
     <div className="">
             <div className="relative">
@@ -69,7 +69,7 @@ const MainContent = () => {
         </div>
 
         <div className="p-4 mt-8 bg-[#252531] text-center mb-16">
-            &copy; All Rights Reserved | 2025 | Developed by <a className='text-[#ffc107]' href="https://www.linkedin.com/in/jehanweerasuriya/" target='_blank'>Jehan Weerasuriya</a> 
+            &copy; All Rights Reserved | {currentYear} | Developed by <a className='text-[#ffc107]' href="https://www.linkedin.com/in/jehanweerasuriya/" target='_blank'>Jehan Weerasuriya</a> 
         </div>        
     </div>
 
